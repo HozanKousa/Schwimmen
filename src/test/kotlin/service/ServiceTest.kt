@@ -33,7 +33,7 @@ class ServiceTest {
         /**
          * Array of [Card] to add later to the card stack
          */
-        val cards : ArrayDeque<Card> = ArrayDeque(32)
+        val cards: ArrayDeque<Card> = ArrayDeque(32)
         cards.add(Card(CardSuit.CLUBS, CardValue.QUEEN))
         cards.add(Card(CardSuit.SPADES, CardValue.TEN))
         cards.add(Card(CardSuit.DIAMONDS, CardValue.SEVEN))
